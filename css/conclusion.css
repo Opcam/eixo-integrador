@@ -1,0 +1,186 @@
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+@font-face {font-family: "BeaufortforLOL-Bold"; src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot"); src: url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+a{
+    display: none;
+    position: absolute;
+    bottom: 2.5%;
+    font-family: "BeaufortforLOL-Bold";
+    font-size: 1.2rem;
+    color: rgb(212, 212, 212);
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.overwatch-map{
+    position: absolute;
+    top: -10%;
+    width: 200%;
+    height: auto;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px) brightness(33%);
+}
+.character{
+    position: absolute;
+    bottom: 0%;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+
+/*Primeiro content*/
+.character-content-1{
+    position: absolute;
+    bottom: 10%;
+    width: 65%;
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 98%;
+    font-family: 'Lora', sans-serif;
+    font-size: 1.1rem;
+    color: rgb(218, 218, 218);
+    background-color: rgb(31, 31, 31);
+}
+.left-border{
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 0.8%;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.character-name-1{
+    position: absolute;
+    top: -10%;
+    width: 20%;
+    height: 5vh;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "BeaufortforLOL-Bold";
+    color: rgb(221, 221, 221);
+    font-size: 1.2rem;
+}
+/*Todos outros contents*/
+.character-content{
+    position: absolute;
+    bottom: -50%;
+    width: 65%;
+    height: 22vh;
+    text-align: center;
+    opacity: 98%;
+    font-family: 'Lora', sans-serif;
+    font-size: 1.1rem;
+    color: rgb(218, 218, 218);
+    background-color: rgb(31, 31, 31);
+    transition: 0.3s all;
+}
+.character-name{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 5vh;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "BeaufortforLOL-Bold";
+    color: rgb(221, 221, 221);
+    font-size: 1.2rem;
+}
+.label-for-text{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+}
+
+
+
+
+
+.coment-symbol{
+    position: absolute;
+    bottom: 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 5%;
+    height: 3vw;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.message-square{
+    width: 45%;
+    height: auto;
+}
+.warning{
+    position: absolute;
+    bottom: 2.5%;
+    font-family: "BeaufortforLOL-Bold";
+    font-size: 1.2rem;
+    color: rgb(212, 212, 212);
+}
+.heimerdinger{
+    position: absolute;
+    bottom: 13.5%;
+    right: 30%;
+    width: 50%;
+    height: auto;
+    z-index: -1;
+    transition: 0.5s all;
+}
+.lux{
+    position: absolute;
+    bottom: -100%;
+    width: 80%;
+    height: auto;
+    z-index: -1;
+    transition: 0.5s all;
+}
+.teemo{
+    position: absolute;
+    bottom: -100%;
+    width: 35%;
+    height: auto;
+    z-index: -1;
+    transition: 0.5s all;
+}
+.gwen{
+    position: absolute;
+    bottom: -100%;
+    width: 80%;
+    height: auto;
+    z-index: -1;
+    transition: 0.5s all;
+}
+.jhin{
+    position: absolute;
+    bottom: -100%;
+    width: 80%;
+    height: auto;
+    z-index: -1;
+    transition: 0.5s all;
+}

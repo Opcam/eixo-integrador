@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'pixeled';
+    src: url('../fonts/pixellari-webfont.woff2') format('woff2');
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x:hidden;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 239, 239);
+}
+.switch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 75%;
+    height: 80vh;
+}
+.blue-side{
+    position: relative;
+    width: 18%;
+    height: 65vh;
+    background-color: #0AB9E6;
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 120px;
+    -webkit-box-shadow: 3px 13px 0px -3px #000000; 
+    box-shadow: 3px 13px 0px -3px #000000;
+}
+.button-minor{
+    width: 65px;
+    height: 14px;
+    position: absolute;
+    left: 85px;
+    top: 56px;
+    background: #242424;
+    position: relative;
+    border-radius: 2px;
+}
+.joystick-1{
+    position: absolute;
+    top: 25%;
+    left: 40px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(66, 66, 66);
+    border: 10px solid black;
+}
+.ball-1{
+    position: absolute;
+    top: 52%;
+    left: 38%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50%;
+}
+.ball-2{
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50%;
+}
+.ball-3{
+    position: absolute;
+    top: 68%;
+    left: 38%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50%;
+}
+.min-square{
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 2px;
+}
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 65vh;
+    background-color: #585858;
+    -webkit-box-shadow: 1px 5px 0px 5px #000000; 
+    box-shadow: 1px 5px 0px 5px #000000;
+}
+.square-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93%;
+    height: 60vh;
+    background-color: black;
+}
+.square-3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 55vh;
+    background-color: #6473f6;
+}
+.game-text-1{
+    position: absolute;
+    top: 10%;
+    font-size: 2rem;
+    font-family: 'pixeled';
+    color: rgb(216, 216, 216);
+}
+.game-text-2{
+    position: absolute;
+    top: 20%;
+    font-size: 2rem;
+    font-family: 'pixeled';
+}
+.game-text-3{
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    font-family: 'pixeled';
+    transition: 0.5s all;
+}
+.game-text-3:hover{
+    color: white;
+}
+.game-scenery{
+    width: 100%;
+    height: 55vh;
+}
+.red-side{
+    position: relative;
+    width: 18%;
+    height: 65vh;
+    background-color: #FF3C28;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    -webkit-box-shadow: 3px 13px 0px -3px #000000; 
+    box-shadow: 3px 13px 0px -3px #000000;
+}
+.button-upward{
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    background: #242424;
+    height: 65px;
+    position: relative;
+    width: 14px;
+    border-radius: 2px;
+}
+.balls-content{
+    position: absolute;
+    top: 22%;
+    width: 57%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    height: 15vh;
+}
+.ball-4{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50%;
+}
+.ball-5{
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50%;
+}
+.ball-6{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50%;
+}
+.ball-7{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50%; 
+}
+.joystick-2{
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(66, 66, 66);
+    border: 10px solid black;
+}
+.ball-w-border{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(47, 47, 47);
+    border: 4px solid black;
+    border-radius: 50%; 
+}
+.button-upward::after{
+    position: absolute;
+    left: -27px;
+    top: 26px;
+    background: #242424;
+    content: "";
+    height: 14px;
+    width: 70px;
+    border-radius: 2px;
+}
+
+
+/*Informações*/
+.infos-content{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: 100%;
+    width: 100%;
+    height: 100vh;
+    transition: 0.5s all;
+    z-index: 5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+.phase-infos-content{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    color: white;
+    font-family: 'pixeled';
+}
+.phase-infos-text{
+    font-size: 2.2rem;
+}
+.progress-content{
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    color: white;
+    font-family: 'pixeled';
+}
+.progress-text{
+    font-family: 'pixeled';
+    font-size: 1.7rem;
+}
+.progress{
+    border: 2px solid white;
+    height: 3vh;
+    width: 250px;
+}
+.sans-gif{
+    z-index: 5;
+    width: 45%;
+    height: auto;
+}
+.character-name{
+    position: absolute;
+    bottom: 5%;
+    left: 7.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'pixeled';
+    font-size: 1.7rem;
+}
+.papyrus-gif{
+    position: absolute;
+    bottom: 59%;
+    left: 48%;
+    z-index: 5;
+    width: 7%;
+    height: auto;
+}
+.toriel-gif{
+    position: absolute;
+    bottom: 60%;
+    left: 40%;
+    z-index: 5;
+    width: 7%;
+    height: auto;
+}
+.frisk{
+    position: absolute;
+    bottom: 59%;
+    left: 55%;
+    z-index: 5;
+    width: 8%;
+    height: auto;
+}
+.speech-area{
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+    width: 75%;
+    height: 25vh;
+    font-family: 'pixeled';
+    font-size: 1.4rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+.next-text{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+}
+.texts-1{
+    width: 70%;
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap; 
+    letter-spacing: .10em;
+    text-align: center;
+}
+.texts{
+    width: 70%;
+    position: fixed;
+    display: none;
+    overflow: hidden;
+    white-space: nowrap; 
+    letter-spacing: .10em;
+    animation:
+    typing 2.5s steps(270, end);
+    text-align: center;
+}
+.next-level{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    font-family: "pixeled";
+    font-size: 1.4rem;
+}
+.next-level a{
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 70% }
+}
+ 

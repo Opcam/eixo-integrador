@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'Avengeance';
+    src: url('../fonts/avengeanceheroicavengerbold-odze-webfont.woff2') format('woff2');
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x:hidden;
+    background-color: rgb(224, 224, 224);
+}
+a{
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+.introduction{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+.spider-man-wallpaper{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(30%);
+}
+.lateral-menu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 5%;
+    height: 100vh;
+    right: 0%;
+    top: 0%;
+    background-color: rgb(34, 34, 34);
+    z-index: 9999;
+    font-family: 'Bebas Neue', cursive;
+}
+.content-hamb-menu{
+    position: relative;
+    width: 100%;
+    height: 11.70vh;
+    font-size: 1.1rem;
+    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+}
+.hamb-menu{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 0.5vh;
+    background-color: rgb(0, 0, 0);
+}
+.hamb-menu2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 0.5vh;
+    background-color: rgb(0, 0, 0);
+}
+.hamb-menu3{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 0.5vh;
+    background-color: rgb(0, 0, 0);
+}
+.first-span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 21vh;
+    color: white;
+}
+.first-span-content{
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    font-size: 1.2rem;
+}
+.spans{
+    width: 100%;
+    height: 11.70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.1rem;
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.content-infos{
+    width: 90%;
+    height: 60vh;
+    left: 10%;
+    background-image: linear-gradient(to left, #1b1b1b 0%, black 100%);
+    opacity: 98%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-around;
+}
+.title:nth-child(1){
+    position: absolute;
+    left: 4%;
+    top: 10%;
+    font-weight: 500;
+    color: white;
+    font-size: 6rem;
+    font-family: 'Avengeance';
+}
+.title:nth-child(2){
+    position: absolute;
+    left: 4%;
+    top: 30%;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 5;
+}
+.bullet{
+    width: 70%;
+    position: absolute;
+    right: -2%;
+    bottom: -80%;
+    height: auto;
+    z-index: 10;
+}
+.reference-sources{
+    position: absolute;
+    bottom: 25%;
+    left: 0%;
+    width: 20%;
+    height: 10vh;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    color: rgb(206, 206, 206);
+}
+
+
+#p1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    height: 100vh;
+    background-color: rgb(218, 218, 218);
+    color: rgb(42, 42, 42);
+}
+.venom{
+    width: 45%;
+    height: auto;
+}
+.paragraphs-content{
+    width: 100%;
+    margin-left: 7%;
+    font-size: 1.2rem;
+}
+.paragraphs{
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Lora', sans-serif;
+    margin-top: 2%;
+}
+.graphs-link{
+    color: rgb(7, 7, 7);
+    font-weight: 600;
+}
+.graphs-link-mysterio{
+    color: rgb(195, 195, 195);
+    font-weight: 600;
+}
+#p2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+    color: rgb(192, 192, 192);
+}
+.mysterio{
+    width: 48%;
+    height: auto;
+}
+.paragraphs-mysterio{
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Lora', sans-serif;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#p3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    height: 100vh;
+    background-color: rgb(218, 218, 218);
+}
+.rei-do-crime{
+    width: 55%;
+    height: auto;
+}
+#p4{
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+    color: rgb(192, 192, 192);
+}
+.scorpion{
+    width: 55%;
+    height: auto;
+}
+.paragraphs-scorpion{
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Lora', sans-serif;
+    margin-right: 30%;
+    margin-top: 2%;
+}
+#p5{
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    height: 100vh;
+    background-color: rgb(218, 218, 218);
+    color: rgb(42, 42, 42);
+}
+.demonios-internos{
+    width: 60%;
+    height: auto;
+}
+
+.graphics{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+}
+.graphs-title{
+    position: absolute;
+    top: 2.5%;
+    left: 10%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: gray;
+}
+.graphics-content{
+    width: 80%;
+    height: auto;
+    background-color: rgb(44, 44, 44);
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: gray;
+}
+.graphics-content img{
+    width: 75%;
+    height: auto;
+    margin-top: 3%;
+}
+.graphic-number{
+    position: relative;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 999;
+}
+.reference-sources-div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    height: 100vh;
+    background-color: rgb(34, 34, 34);
+    color: rgb(42, 42, 42);
+}
+.refere-sources-text{
+    color: rgb(207, 206, 206);
+    width: 50%;
+    height: 50vh;
+    font-size: 1.2rem;
+}

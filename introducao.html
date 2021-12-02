@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="css/intro.css" type="text/css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+      <div class="switch" data-aos="fade-up">
+         <div class="blue-side">
+           <div class="button-minor"></div>
+           <div class="joystick-1"></div>
+           <div class="ball-1"></div>
+           <div class="ball-2"></div>
+           <div class="ball-3"></div>
+           <div class="min-square"></div>
+         </div>
+         <div class="square">
+             <div class="square-2">
+                 <div class="square-3">
+                    <img src="img/pixel-scenery-gif.gif" class="game-scenery">
+                    <label class="game-text-1">Primeira Parte</label>
+                    <label class="game-text-2">Introdução</label>
+                    <label class="game-text-3" onclick="showInfos()">>Começar<</label>
+                 </div>
+             </div>
+         </div>
+         <div class="red-side">
+           <div class="button-upward"></div>
+           <div class="balls-content">
+              <div class="ball-4"></div>
+              <div class="ball-5"></div>
+              <div class="ball-6"></div>
+              <div class="ball-7"></div>
+           </div>
+           <div class="joystick-2"></div>
+           <div class="ball-w-border"></div>
+         </div>
+      </div>
+    </div>
+
+    <div class="infos-content">
+
+      <div class="phase-infos-content">
+
+        <label class="phase-infos-text">Introdução</label><br>
+
+      </div>
+
+     <div class="progress-content">
+      <label class="progress-text">Progresso - <label class="progress-percent">0%</label></label>
+      <div class="progress"></div>
+     </div>
+
+      
+      <div class="character-name">
+        Sans
+        <img src="img/sanss-gif.gif" class="sans-gif">
+      </div>
+
+      <img src="img/papyrus-gif.gif" class="papyrus-gif">
+      <img src="img/toriel-gif.gif" class="toriel-gif">
+      <img src="img/frisk-image.png" class="frisk">
+      <div class="speech-area">
+        <div class="next-text"> >>Click </div>
+
+        <div class="texts-1" onclick="showSpeechArea2()">
+          ...?
+        </div>
+
+        <div class="texts" onclick="showSpeechArea(0,1)">
+          Parece que temos um convidado! Imagino que tenha vindo<br>
+          para saber sobre a influência dos jogos no cotidiano dos jovens, não é?<br>
+          Então vamos começar!
+        </div>
+
+        <div class="texts" onclick="showSpeechArea(1,2)">
+          Nas últimas décadas, com  o  surgimento  de  novas  tecnologias, os 
+          aparelhos eletrônicos<br>  junto da  internet tomaram  conta  de  tudo e  todos, na  qual é 
+          quase impossível se  ver<br>  sem  utilizar  esses  equipamentos surgindo  uma  espécie  de 
+          dependência.
+        </div>
+
+        <div class="texts" onclick="showSpeechArea(2,3)">
+          Em meio a tudo isso, surgiram ferramentas que auxiliam em pesquisas, comunicação<br> e muitos outros fatores, 
+          mas também formas de entretenimento e lazer, como  os  jogos.<br>
+          Porém, não  é  possível  falar  em  jogos sem  falar  de  quem  joga.  
+        </div>
+
+        <div class="texts" onclick="showSpeechArea(3,4)">
+          Os gamers fazem  apropriação  dos  jogos  eletrônicos de  forma<br> que saiam  do  contexto  atual,
+          servindo como uma válvula de escape.
+        </div>
+
+          <div class="texts" onclick="showSpeechArea(4,5)">
+            Como início da pandemia da COVID-19, todos foram obrigados a permanecer em<br> 
+            quarentena,  forçando  assim  as  pessoas  a  se  isolar  umas  das  outras  e<br>
+            buscar atividades cabíveis  ao  momento
+          </div>
+
+          <div class="texts" onclick="showSpeechArea(5,6)">
+            Por  conta  disso, o uso  dos  jogos eletrônicos alavancou,  apresentando<br>  um  aumento de 140%  em
+            relação ao período anterior  a pandemia. Os  jogos  nunca<br>  estiveram  tão  presentes  no
+            cotidiano  dos  jovens  como hoje. 
+          </div>
+
+          <div class="texts" onclick="showSpeechArea(6,7)">
+            Levando  isso  em  consideração,  viu-se  necessário a  realização  de  uma investigação<br> que apresentasse  dados 
+            referente  aos  jogos  e os impactos  em  seus jogadores, onde seria apresentado de<br>
+            maneira organizada e objetiva os resultados e análises referentes a essa pesquisa.<br>
+          </div>
+
+          <div class="texts" onclick="showSpeechArea(7,8)">
+            Essa imersão que ocorreu nos últimos meses, aumentaram tanto o número de jogadores,<br>quanto  o consumo 
+             dos jogos. Certamente  esse  crescimento<br>  causará alguns  impactos
+            nos adolescentes, dependendo  da  maneira  que  for consumido.
+          </div>
+
+          <div class="texts" onclick="showSpeechArea(8,9)">
+            Nesse  sentido,  o  objetivo  desse projeto  de pesquisa  se  torna  evidente, a  fim de identificar <br>
+            a maneira que os jovens usufruem dos jogos, mostrando como isso é lidado por eles durante o <br>
+            seu cotidiano e como os jogos podem contribuir positivamente ou negativamente nos adolescentes em <br>
+            diferentes aspectos de sua vida, seja no âmbito social, pessoal, profissional ou até mesmo familiar.<br>
+          </div>
+
+          <div class="texts" onclick="showSpeechArea(9,10)">
+            Muitos dos entrevistados mostraram não estarem cientes sobre sua<br>relação com os jogos
+            onde sem terem nenhum conhecimento se enquadravam<br> no conceito de vício
+            e tinham partes de suas vidas afetadas pelos jogos
+          </div>
+
+          <div class="texts" onclick="showSpeechArea(10,11)">
+            Por isso, essa pesquisa se torna indispensável no  contexto em  que  vivemos<br> pois é  esperado  que por  
+            meio dela, as pessoas possam se conscientizar sobre como os jogos <br> podem influenciar
+            as pessoas e como lidar com seus riscos.
+          </div>
+
+          <div class="texts">
+           Chegamos ao final dessa etapa!<br>
+           Você já pode ir para os Objetivos.
+          </div>
+      </div>
+
+      <div class="next-level"><a href="objetivos.html">Objetivos></a></div>
+  </div>
+      
+
+    <script src="js/effects.js"></script>
+    <script src="js/frisk.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
