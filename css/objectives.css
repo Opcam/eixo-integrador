@@ -6,6 +6,7 @@ body{
     overflow-x:hidden;
 }
 .container{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,13 +16,24 @@ body{
     height: 100vh;
 }
 .content{
+    width: 100%;
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .missions{
-    width: 30%;
+    width: 600px;
     height: auto;
     margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1280px) {
+    
+    .missions {
+        width: 400px;
+    }
+
 }

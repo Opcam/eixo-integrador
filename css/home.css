@@ -3,7 +3,7 @@ body{
   margin: 0;
   padding: 0;
   border: 0;
-  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  overflow-x: hidden;
 }
 .container{
   position: relative;
@@ -124,8 +124,8 @@ a{
   left: 50%;
   transform: translateX(-50%);
   background-color: rgb(32, 115, 38);
-  width: 21%;
-  height: 7vh;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 8px 0px -1px rgb(33, 148, 42);
   box-shadow: 0px 8px 0px -1px rgb(33, 148, 42);
@@ -153,8 +153,8 @@ a{
   left: 50%;
   transform: translateX(-50%);
   background-color: rgb(170, 8, 8);
-  width: 21%;
-  height: 7vh;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 8px 0px -1px rgb(177, 47, 47);
   box-shadow: 0px 8px 0px -1px rgb(177, 47, 47);
@@ -182,8 +182,8 @@ a{
   left: 50%;
   transform: translateX(-50%);
   background-color: rgb(41, 6, 213);
-  width: 21%;
-  height: 7vh;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 8px 0px -1px rgb(63, 31, 217);
   box-shadow: 0px 8px 0px -1px rgb(63, 31, 217);
@@ -211,8 +211,8 @@ a{
   left: 50%;
   transform: translateX(-50%);
   background-color: rgb(175, 184, 13);
-  width: 21%;
-  height: 7vh;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   -webkit-box-shadow: 0px 8px 0px -1px rgb(216, 224, 65);
   box-shadow: 0px 8px 0px -1px rgb(216, 224, 65);
@@ -228,4 +228,24 @@ a{
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   color: white;
+}
+
+
+@media screen and (max-width: 1190px) {
+
+  .searchs-div{
+    flex-direction: column;
+  }
+
+  a {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .searchs {
+    width: 70%;
+    height: 50vh;
+  }
+
+
 }

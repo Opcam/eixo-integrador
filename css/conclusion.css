@@ -26,9 +26,8 @@ a{
 }
 .overwatch-map{
     position: absolute;
-    top: -10%;
     width: 200%;
-    height: auto;
+    height: 100vh;
     -webkit-filter: blur(15px);
     -moz-filter: blur(15px);
     -o-filter: blur(15px);
@@ -38,7 +37,7 @@ a{
 .character{
     position: absolute;
     bottom: 0%;
-    width: 60%;
+    width: 1100px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -128,8 +127,8 @@ a{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    width: 5%;
-    height: 3vw;
+    width: 60px;
+    height: 60px;
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 .message-square{
@@ -183,4 +182,42 @@ a{
     height: auto;
     z-index: -1;
     transition: 0.5s all;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .character {
+        width: 130%;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+
+    .heimerdinger {
+        width: 500px;
+        right: 20%;
+    }
+
+    .lux {
+        width: 800px;
+    }
+
+    .jhin {
+        width: 800px;
+    }
+
+    .gwen {
+        width: 800px;
+    }
+
+    .teemo {
+        width: 400px;
+    }
+
+    .character-name {
+        width: 40%;
+    }
+    
 }
